@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+}
+
+body {
+    background-color:rgb(148, 30, 0);
+    color: antiquewhite;
+    height: 100vh;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    font-family:'Papyrus';
+    font-size: 60pt;
+    font-weight: bold;
+    padding: 100px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selecione {
+    font-family: 'Technic';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    padding: 16px;
+    padding-bottom: 30px;
+}
+
+.creditos {
+    font-family: 'Technic';
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 200px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container-levels {
+    background-color: rgb(148, 30, 0);
+    width: 100%;
+    
+    padding-left: 80px;
+    padding: 50px;
+    padding-top: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.next-question {
+    margin-top: 32px;
+}
+
+.button {
+    background-color: #b6ab0d;
+    color: antiquewhite;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Technic';
+    border: 0;
+    border-radius: 6px;
+    height: 48px;
+    padding: 0 32px;
+
+    transition: filter 0.2s;
+}
+
+.button:not(:disabled):hover {
+    filter: brightness(0.8);
+}
+
+.answer:disabled {
+    cursor: not-allowed;
+}
+
+.hide {
+    display: none;
+}
+
+.correct {
+    background-color: #049b48;
+}
+
+.incorrect {
+    background-color: #a10101;
+}
+
+.final-message{
+    font-size: 20px;
+    text-align: center;
+}
+
+.final-message span{
+    display: block;
+    margin-top: 8px;
+}

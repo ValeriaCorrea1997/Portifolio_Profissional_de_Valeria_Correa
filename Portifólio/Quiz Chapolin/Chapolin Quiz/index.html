@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<!--Cabeçalio/Header-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - Chapolin</title>
+
+    <link rel="stylesheet" href="stylehome.css">
+    <script src="index.js" async></script>
+</head>
+<body>
+    <div class="titulo">Quiz - Chapolin</div>
+    <div class="container-levels" align="center">
+    <div class="selecione">Selecione o Nível</div>
+
+    <!--Botões para selecionar niveis/Buttons to select levels-->
+    <div class="levels">
+        <button class="level button" onclick="golevel1()">Nível 1 - Básico</button>
+        <button class="level button" onclick="golevel2()">Nível 2 - Fácil</button>
+        <button class="level button" onclick="golevel3()">Nível 3 - Médio</button>
+        <button class="level button" onclick="golevel4()">Nível 4 - Díficil</button>
+        <button class="level button" onclick="golevel5()">Nível 5 - Insano</button>
+    </div>
+</div>
+<div class="creditos">Bygaanv Apps and Games ©, 2024</div>
+
+<!--Funções de seleção de níveis/Functions to select levels-->
+<script>
+    function golevel1() {
+        window.location.href = "level1.html";
+    }
+
+    function golevel2() {
+        window.location.href = "level2.html";
+    }
+
+    function golevel3() {
+        window.location.href = "level3.html";
+    }
+
+    function golevel4() {
+        window.location.href = "level4.html";
+    }
+
+    function golevel5() {
+        window.location.href = "level5.html";
+    }
+</script>
+
+</body>
+</html>
