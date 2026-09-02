@@ -3,11 +3,12 @@
 
 Seja bem-vindo(a) ao meu perfil! 🌷
 
-Sou apaixonada por tecnologia e estou construindo minha jornada na área de desenvolvimento. Aqui você encontrará alguns dos meus projetos, estudos e experiências.
+Sou apaixonada por tecnologia. Aqui você encontrará alguns dos meus projetos, estudos e experiências.
 
 🌸 Sobre mim
 💻 Desenvolvendo sites com HTML, CSS, JavaScript
 💻 Desenvolvendo jogos com Python e Construct2
 💻 Desenvolvendo jogos e apps com Android Studio
+💻 Desenvolvendo mods para Minecraft e Stardew Valley
 🎯 Meu objetivo é trabalhar profissionalmente com desenvolvimento FrontEnd ou desenvolvimento de Jogos/Apps
 ✨ Gosto de transformar ideias em projetos criativos e funcionais
